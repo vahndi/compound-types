@@ -4,14 +4,12 @@ from setuptools import find_packages
 setup(
   name='compound_types',
   packages=find_packages(),
-  version='0.0.2',
+  version='0.0.3',
   license='MIT',
   description='Python package of compound types.',
   author='Vahndi Minah',
   url='https://github.com/vahndi/compound-types',
-  install_requires=[
-
-  ],
+  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
