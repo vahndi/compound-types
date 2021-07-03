@@ -10,3 +10,5 @@ DictOrStr = Union[dict, str]
 FloatOrInt = Union[float, int]
 FloatOrStr = Union[float, str]
 IntOrStr = Union[int, str]
+
+Scalar = Union[int, float]
