@@ -4,7 +4,7 @@ from setuptools import find_packages
 setup(
   name='compound_types',
   packages=find_packages(),
-  version='0.0.6',
+  version='0.0.7',
   license='MIT',
   description='Python package of compound types.',
   author='Vahndi Minah',

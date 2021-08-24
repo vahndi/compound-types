@@ -1,4 +1,5 @@
-from typing import Union
+from typing import Union, Sized, Iterable
+
 
 BoolOrDict = Union[bool, dict]
 BoolOrFloat = Union[bool, float]
@@ -12,3 +13,4 @@ FloatOrStr = Union[float, str]
 IntOrStr = Union[int, str]
 
 Scalar = Union[int, float]
+SizedOrIterable = Union[Sized, Iterable]
